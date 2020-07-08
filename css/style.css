@@ -1,0 +1,273 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-gap {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+/* *************** NavBar Start ************* */
+.navbar-light .navbar-nav .nav-link {
+    color: #282531;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #21b573;
+}
+
+.menu-control a,
+.menu-control button {
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.btn-control {
+    padding: 6px 20px;
+    border-radius: 20px;
+    background-color: #21b573;
+    border: none;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.btn-control:hover {
+    border: none;
+    color: #21b573;
+    background-color: #282531;
+}
+
+.logo-control {
+    height: 40px;
+}
+
+#menu {
+    background-color: transparent;
+}
+
+#menu-bar {
+    background-color: #f0fff0;
+}
+
+/* *************** NavBar End ************* */
+#banner {
+    background: transparent;
+    margin-bottom: 50px;
+    padding: 50px 0;
+}
+
+#banner-part {
+    background: #f0fff0;
+}
+
+.intro {
+    width: 61%;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+.intro span {
+    color: #21b573;
+}
+
+.intro-details {
+    width: 70%;
+    line-height: 2;
+}
+
+.intro-question {
+    color: #fd511a;
+}
+
+/* *************** Banner End ************** */
+
+/* ***************** Topics Start *************/
+.topic-img {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#topic .card {
+    text-align: center;
+    background-color: #f8fffb;
+    border: none;
+    transition: .5s;
+    padding: 15px;
+}
+
+#topic .card:hover {
+    box-shadow: -2px 0px 37px 6px rgba(222, 222, 222, 1);
+    background-color: #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#topic .card h5 {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+#topic .card h6 {
+    font-weight: 500;
+}
+
+/* ***************** Topics End *************/
+
+/* ***************** Online course part Start *************/
+#courses {
+    background: #fff;
+}
+
+.heading-intro {
+    padding: 50px 0;
+}
+
+#courses .card h5 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#courses h1,
+h5 {
+    color: #413960;
+}
+
+#courses .card-text {
+    color: #585859
+}
+
+#courses .card {
+    border-radius: 10px;
+    box-shadow: -2px 0px 37px 6px rgba(222, 222, 222, 1);
+}
+
+.card-icon {
+    font-size: 14px;
+    padding: 20px 0 0 0;
+    color: #585859;
+}
+
+/* ***************** Online course part End *************/
+
+/* ***************** Testimonial part Start *************/
+.testimonial-details {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#testimonial .heading-intro {
+    color: #000000;
+}
+
+.testimonial-details .test-dtls {
+    font-size: 14px;
+}
+
+#testimonial img {
+    height: 150px;
+}
+
+/* ***************** Testimonial part End *************/
+
+/* ************** Accordion Start *********** */
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.myaccordion .collapsed {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #413960;
+}
+
+.btn-link:focus {
+    text-decoration: none;
+    color: #21b573;
+    font-size: 16px;
+}
+
+.myaccordion .card-header h5 {
+    text-align: center;
+}
+
+.card-header {
+    box-shadow: -2px 0px 37px 6px rgba(222, 222, 222, 1);
+    background: #f8fffb;
+}
+
+/* ************** Accordion End *********** */
+
+/* ***************** Fotter part Start *************/
+#footer {
+    background: #282531;
+}
+
+.footer {
+    background: transparent;
+    color: #fff;
+}
+
+.quick-link ul li {
+    list-style: none;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.quick-link ul li a {
+    transition: .5s;
+}
+
+.quick-link ul {
+    padding-left: 0;
+}
+
+.quick-link ul li a:hover {
+    color: #21b573;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.quick-link ul li a,
+.quick-link h5 {
+    color: #fff;
+}
+
+.footer-fraction {
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+
+.footer-fraction .footer-details p {
+    font-size: 14px;
+    line-height: 2;
+    max-width: 75%;
+}
+
+.footer-fraction .quick-link,
+footer {
+    text-transform: capitalize;
+}
+
+footer {
+    font-size: 14px;
+    padding: 25px 0;
+}
+
+footer a{
+    color: #21b573;
+    transition: .5s;
+    margin-left: 5px;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: orangered;
+}
+/* ***************** Fotter part End *************/

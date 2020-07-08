@@ -1,0 +1,75 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .testimonial-details .img-res {
+        display: block;
+        margin-left: -30%;
+        padding-top: 10px;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .testimonial-details .img-res {
+        display: block;
+        margin-left: -30%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+
+    #topic .card {
+        display: flex;
+        flex-wrap: wrap;
+        height: 210px;
+    }
+
+    #topic .card .topic-img {
+        width: 50px;
+        margin-left: 16px;
+    }
+
+    #topic .card h5,
+    h6 {
+        font-size: 11px;
+    }
+
+    #courses .card-body h5 {
+        font-size: 15px;
+    }
+
+    #courses .card-body .card-text,
+    .btn-control {
+        font-size: 12px;
+    }
+
+    .card-icon {
+        font-size: 8px;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .testimonial-details .img-res {
+        display: block;
+        margin-left: -30%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #topic .card h5,
+    h6 {
+        font-size: 11px;
+    }
+
+    #courses .card-body .card-text,
+    .btn-control {
+        font-size: 12px;
+    }
+}
